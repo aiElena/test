@@ -1,0 +1,255 @@
+:root {
+
+  /* Decorative styles */
+  --ui-light-shade-color: #fff;
+  --ui-light-accent-color: #f7f7f7;
+  --ui-brand-color: #d70044;
+  --ui-dark-accent-color: #333535;
+  --ui-dark-shade-color: #251d24;
+
+  /* Background */
+  --ui-block-bg: #fff;
+  --ui-media-bg: #f7f7f7;
+
+  /* Hero title */
+  --ui-hero-title-size: 80px;
+  --ui-hero-title-color: #323435;
+  --ui-hero-title-line-height: 1.125;
+  --ui-hero-title-font-family: "Roboto Slab", serif;
+  --ui-hero-title-font-weight: 400;
+  
+  /* Block Title */
+  --ui-block-title-size: 34px;
+  --ui-block-title-color: #323435;
+  --ui-block-title-line-height: 1.3529;
+  --ui-block-title-font-family: "Roboto Slab", serif;
+  --ui-block-title-font-weight: 700;
+  
+  /* Subtitle */
+  --ui-subtitle-size: 20px;
+  --ui-subtitle-color: #323435;
+  --ui-subtitle-line-height: 1.5;
+  --ui-subtitle-font-family: "Roboto Slab", serif;
+  --ui-subtitle-font-weight: 400;
+  
+  /* Large Heading */
+  --ui-heading-lg-size: 28px;
+  --ui-heading-lg-color: #323435;
+  --ui-heading-lg-line-height: 1.4285;
+  --ui-heading-lg-font-family: "Roboto Slab", serif;
+  --ui-heading-lg-font-weight: 700;
+  
+  /* Heading */
+  --ui-heading-size: 26px;
+  --ui-heading-color: #323435;
+  --ui-heading-line-height: 1.3076;
+  --ui-heading-font-family: "Roboto Slab", serif;
+  --ui-heading-font-weight: 400;
+  
+  /* Subheading */
+  --ui-subheading-size: 24px;
+  --ui-subheading-color: #323435;
+  --ui-subheading-line-height: 1.4166;
+  --ui-subheading-font-family: "Roboto Slab", serif;
+  --ui-subheading-font-weight: 400;
+  
+  /* Simple text */
+  --ui-text-size: 16px;
+  --ui-text-color: #6e7173;
+  --ui-text-line-height: 1.625;
+  --ui-text-font-family: "Roboto Slab", serif;
+  --ui-text-font-weight: 300;
+  
+  /* Caption text */
+  --ui-caption-size: 11px;
+  --ui-caption-color: #b5b5b5;
+  --ui-caption-line-height: 1.8181;
+  --ui-caption-font-family: "Montserrat", Helvetica, sans-serif;
+  --ui-caption-font-weight: 400;
+  
+  /* Small text */
+  --ui-small-size: 11px;
+  --ui-small-color: #b5b5b5;
+  --ui-small-line-height: 1.8181;
+  --ui-small-font-family: "Montserrat", Helvetica, sans-serif;
+  --ui-small-font-weight: 400;
+  
+  /* Quote text */
+  --ui-quote-size: 14px;
+  --ui-quote-color: #595959;
+  --ui-quote-line-height: 1.2;
+  --ui-quote-font-family: "Montserrat", Helvetica, sans-serif;
+  --ui-quote-font-weight: 400;
+  
+  /* Link */
+  
+  --ui-link-color: #b5b5b5;
+  --ui-link-hover-color: #d70044;
+  
+  /* Primary button */
+  --ui-btn-primary-color: #fff;
+  --ui-btn-primary-bg: #d70044;
+  --ui-btn-primary-border-width: 1px;
+  --ui-btn-primary-border-style: solid;
+  --ui-btn-primary-border-color: transparent;
+  --ui-btn-primary-shadow-x: 0;
+  --ui-btn-primary-shadow-y: 0;
+  --ui-btn-primary-shadow-blur: 0;
+  --ui-btn-primary-shadow-spread: 0;
+  --ui-btn-primary-shadow-color: none;
+
+  --ui-btn-primary-hover-color: #fff;
+  --ui-btn-primary-hover-bg: #d70044;
+  --ui-btn-primary-hover-border-width: 1px;
+  --ui-btn-primary-hover-border-style: solid;
+  --ui-btn-primary-hover-border-color: transparent;
+  --ui-btn-primary-hover-shadow-x: 0;
+  --ui-btn-primary-hover-shadow-y: 7px;
+  --ui-btn-primary-hover-shadow-blur: 20px;
+  --ui-btn-primary-hover-shadow-spread: 0;
+  --ui-btn-primary-hover-shadow-color: rgba(249, 0, 66, 0.5);
+
+  --ui-btn-primary-active-color: #fff;
+  --ui-btn-primary-active-bg: #d70044;
+  --ui-btn-primary-active-border-width: 1px;
+  --ui-btn-primary-active-border-style: solid;
+  --ui-btn-primary-active-border-color: transparent;
+  --ui-btn-primary-active-shadow-x: 0;
+  --ui-btn-primary-active-shadow-y: 7px;
+  --ui-btn-primary-active-shadow-blur: 20px;
+  --ui-btn-primary-active-shadow-spread: 0;
+  --ui-btn-primary-active-shadow-color: rgba(249, 0, 66, 0.5);
+  
+  /* Alternative primary button */
+  --ui-alt-btn-primary-color: #fff;
+  --ui-alt-btn-primary-bg: #d70044;
+  --ui-alt-btn-primary-border-width: 1px;
+  --ui-alt-btn-primary-border-style: solid;
+  --ui-alt-btn-primary-border-color: transparent;
+  --ui-alt-btn-primary-shadow-x: 0;
+  --ui-alt-btn-primary-shadow-y: 0;
+  --ui-alt-btn-primary-shadow-blur: 0;
+  --ui-alt-btn-primary-shadow-spread: 0;
+  --ui-alt-btn-primary-shadow-color: none;
+
+  --ui-alt-btn-primary-hover-color: #fff;
+  --ui-alt-btn-primary-hover-bg: #d70044;
+  --ui-alt-btn-primary-hover-border-width: 1px;
+  --ui-alt-btn-primary-hover-border-style: solid;
+  --ui-alt-btn-primary-hover-border-color: transparent;
+  --ui-alt-btn-primary-hover-shadow-x: 0;
+  --ui-alt-btn-primary-hover-shadow-y: 7px;
+  --ui-alt-btn-primary-hover-shadow-blur: 20px;
+  --ui-alt-btn-primary-hover-shadow-spread: 0;
+  --ui-alt-btn-primary-hover-shadow-color: rgba(249, 0, 66, 0.5);
+
+  --ui-alt-btn-primary-active-color: #fff;
+  --ui-alt-btn-primary-active-bg: #d70044;
+  --ui-alt-btn-primary-active-border-width: 1px;
+  --ui-alt-btn-primary-active-border-style: solid;
+  --ui-alt-btn-primary-active-border-color: transparent;
+  --ui-alt-btn-primary-active-shadow-x: 0;
+  --ui-alt-btn-primary-active-shadow-y: 7px;
+  --ui-alt-btn-primary-active-shadow-blur: 20px;
+  --ui-alt-btn-primary-active-shadow-spread: 0;
+  --ui-alt-btn-primary-active-shadow-color: rgba(249, 0, 66, 0.5);
+
+  /* Secondary button */
+  --ui-btn-secondary-color: #969b9d;
+  --ui-btn-secondary-bg: transparent;
+  --ui-btn-secondary-border-width: 1px;
+  --ui-btn-secondary-border-style: solid;
+  --ui-btn-secondary-border-color: #969b9d;
+  --ui-btn-secondary-shadow-x: 0;
+  --ui-btn-secondary-shadow-y: 0;
+  --ui-btn-secondary-shadow-blur: 0;
+  --ui-btn-secondary-shadow-spread: 0;
+  --ui-btn-secondary-shadow-color: none;
+
+  --ui-btn-secondary-hover-color: #969b9d;
+  --ui-btn-secondary-hover-bg: #eee;
+  --ui-btn-secondary-hover-border-width: 1px;
+  --ui-btn-secondary-hover-border-style: solid;
+  --ui-btn-secondary-hover-border-color: #eee;
+  --ui-btn-secondary-hover-shadow-x: 0;
+  --ui-btn-secondary-hover-shadow-y: 0;
+  --ui-btn-secondary-hover-shadow-blur: 0;
+  --ui-btn-secondary-hover-shadow-spread: 0;
+  --ui-btn-secondary-hover-shadow-color: none;
+
+  --ui-btn-secondary-active-color: #969b9d;
+  --ui-btn-secondary-active-bg: #eee;
+  --ui-btn-secondary-active-border-width: 1px;
+  --ui-btn-secondary-active-border-style: solid;
+  --ui-btn-secondary-active-border-color: #eee;
+  --ui-btn-secondary-active-shadow-x: 0;
+  --ui-btn-secondary-active-shadow-y: 0;
+  --ui-btn-secondary-active-shadow-blur: 0;
+  --ui-btn-secondary-active-shadow-spread: 0;
+  --ui-btn-secondary-active-shadow-color: none;
+  
+  /* Alternative secondary button */
+  --ui-alt-btn-secondary-color: #969b9d;
+  --ui-alt-btn-secondary-bg: transparent;
+  --ui-alt-btn-secondary-border-width: 1px;
+  --ui-alt-btn-secondary-border-style: solid;
+  --ui-alt-btn-secondary-border-color: #969b9d;
+  --ui-alt-btn-secondary-shadow-x: 0;
+  --ui-alt-btn-secondary-shadow-y: 0;
+  --ui-alt-btn-secondary-shadow-blur: 0;
+  --ui-alt-btn-secondary-shadow-spread: 0;
+  --ui-alt-btn-secondary-shadow-color: none;
+
+  --ui-alt-btn-secondary-hover-color: #969b9d;
+  --ui-alt-btn-secondary-hover-bg: #eee;
+  --ui-alt-btn-secondary-hover-border-width: 1px;
+  --ui-alt-btn-secondary-hover-border-style: solid;
+  --ui-alt-btn-secondary-hover-border-color: #eee;
+  --ui-alt-btn-secondary-hover-shadow-x: 0;
+  --ui-alt-btn-secondary-hover-shadow-y: 0;
+  --ui-alt-btn-secondary-hover-shadow-blur: 0;
+  --ui-alt-btn-secondary-hover-shadow-spread: 0;
+  --ui-alt-btn-secondary-hover-shadow-color: none;
+
+  --ui-alt-btn-secondary-active-color: #969b9d;
+  --ui-alt-btn-secondary-active-bg: #eee;
+  --ui-alt-btn-secondary-active-border-width: 1px;
+  --ui-alt-btn-secondary-active-border-style: solid;
+  --ui-alt-btn-secondary-active-border-color: #eee;
+  --ui-alt-btn-secondary-active-shadow-x: 0;
+  --ui-alt-btn-secondary-active-shadow-y: 0;
+  --ui-alt-btn-secondary-active-shadow-blur: 0;
+  --ui-alt-btn-secondary-active-shadow-spread: 0;
+  --ui-alt-btn-secondary-active-shadow-color: none;
+
+  /* btn sm size */
+  --ui-btn-sm-padding: 12px 15px;
+  --ui-btn-sm-border-radius: 5px;
+  --ui-btn-sm-size: 11px;
+
+  /* btn md size */
+  --ui-btn-md-padding: 14px 20px;
+  --ui-btn-md-border-radius: 5px;
+  --ui-btn-md-size: 11px;
+
+  /* btn lg size */
+  --ui-btn-lg-padding: 24px 30px;
+  --ui-btn-lg-border-radius: 5px;
+  --ui-btn-lg-size: 11px;
+  
+  /* Decorative borders */
+  
+  --ui-border-color: #969b9d;
+
+  /* Container */
+  --ui-content-container: 1200px;
+  --ui-content-gutter: 0 15px;
+  
+  /* Expanded menu background */
+  
+  --ui-expanded-menu-bg: #251d24;
+  
+  /* Icons */
+  
+  --ui-icon-color: #333535;
+}

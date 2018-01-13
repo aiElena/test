@@ -1,0 +1,7 @@
+@custom-media --ui-phone-devices (min-width: 480px);
+
+@custom-media --ui-tablet-devices (min-width: 768px);
+
+@custom-media --ui-medium-devices (min-width: 992px);
+
+@custom-media --ui-large-devices (min-width: 1200px);

@@ -1,0 +1,201 @@
+@import "../../../uikit/dark/vars.css";
+@import "../../../uikit/media.css";
+@import "../../../uikit/dark/buttons.css";
+
+.section {
+  min-width: 320px;
+  padding: 30px 0;
+
+  /* background-color: var(--ui-block-bg); */
+  font-size: var(--ui-text-size);
+  color: var(--ui-text-color);
+  line-height: var(--ui-text-line-height);
+  font-weight: var(--ui-text-font-weight);
+  font-family: var(--ui-text-font-family);
+  word-wrap: break-word;
+
+  @media (--ui-medium-devices) {
+    padding: 60px 0;
+  }
+
+  &__inner {
+    max-width: var(--ui-content-container);
+    margin: 0 auto;
+    padding: var(--ui-content-gutter);
+  }
+}
+
+.title {
+  margin-bottom: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: calc(var(--ui-block-title-size) * 0.75);
+  color: var(--ui-block-title-color);
+  line-height: var(--ui-block-title-line-height);
+  font-family: var(--ui-block-title-font-family);
+  font-weight: var(--ui-block-title-font-weight);
+
+  @media (--ui-tablet-devices) {
+    font-size: var(--ui-block-title-size);
+  }
+}
+
+.subtitle {
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: calc(var(--ui-subtitle-size) * 0.9);
+  color: var(--ui-subtitle-color);
+  line-height: var(--ui-subtitle-line-height);
+  font-family: var(--ui-subtitle-font-family);
+  font-weight: var(--ui-subtitle-font-weight);
+
+  @media (--ui-tablet-devices) {
+    font-size: var(--ui-subtitle-size);
+  }
+
+  @media (--ui-medium-devices) {
+    max-width: 970px;
+  }
+}
+
+.counter {
+  display: flex;
+  max-width: 970px;
+  margin: 50px auto;
+  justify-content: center;
+  flex-wrap: nowrap;
+
+  @media (--ui-tablet-devices) {
+    margin: 50px auto 60px;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    padding: 0 8px;
+    flex-basis: 25%;
+    max-width: 25%;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+
+    @media (--ui-tablet-devices) {
+      padding: 0 10px;
+      border-left: 1px solid var(--ui-border-color);
+
+      &:first-child {
+        border-left: 0;
+      }
+    }
+  }
+
+  &__text {
+    font-size: calc(var(--ui-text-size) * 0.875);
+
+    @media (--ui-tablet-devices) {
+      font-size: var(--ui-text-size);
+    }
+  }
+
+  &__number {
+    display: block;
+    font-size: calc(var(--ui-block-title-size) * 0.75);
+    color: var(--ui-block-title-color);
+    line-height: var(--ui-block-title-line-height);
+    font-family: var(--ui-block-title-font-family);
+    font-weight: 600;
+
+    @media (--ui-tablet-devices) {
+      font-size: var(--ui-block-title-size);
+    }
+  }
+}
+
+.form {
+  margin: 0 auto 49px;
+
+  @media (--ui-tablet-devices) {
+    max-width: 425px;
+    margin: 0 auto 50px;
+  }
+
+  &__title {
+    margin-bottom: 19px;
+    text-align: center;
+    font-size: calc(var(--ui-heading-size) * 0.8334);
+    color: var(--ui-heading-color);
+    line-height: var(--ui-heading-line-height);
+    font-family: var(--ui-heading-font-family);
+    font-weight: var(--ui-heading-font-weight);
+
+    @media (--ui-tablet-devices) {
+      margin-bottom: 20px;
+      font-size: var(--ui-heading-size);
+    }
+  }
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+
+    @media (--ui-tablet-devices) {
+      flex-direction: row;
+    }
+  }
+
+  &__field {
+    height: 56px;
+    flex: 1;
+    margin-bottom: 16px;
+    font-size: inherit;
+    color: inherit;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+    /* background-color: var(--ui-block-bg); */
+    border: 1px solid var(--ui-light-accent-color);
+
+    @media (--ui-tablet-devices) {
+      margin-right: 10px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+
+  &__item {
+    width: 24px;
+    height: 24px;
+    margin-right: 24px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__link {
+    display: flex;
+    height: 100%;
+    color: inherit;
+    text-decoration: none;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: var(--ui-brand-color);
+    }
+  }
+
+  &__icon {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+/* stylelint-disable */
+
+ /* stylelint-enable */

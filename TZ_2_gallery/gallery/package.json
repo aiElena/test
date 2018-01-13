@@ -1,0 +1,58 @@
+{
+  "name": "new-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "precommit": "lint-staged",
+    "bootstrap": "chmod +x ./scripts/init.sh && ./scripts/init.sh",
+    "finish": "chmod +x ./scripts/finish.sh && ./scripts/finish.sh",
+    "copy": "./scripts/copy.sh"
+  },
+  "lint-staged": {
+    "src/**/*.css": [
+      "stylelint --fix",
+      "git add"
+    ]
+  },
+  "author": "Efimenko",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^1.2.0",
+    "gulp-flatten": "^0.3.1",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-inject": "^4.2.0",
+    "gulp-newer": "^1.3.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-svgmin": "^1.2.4",
+    "gulp-svgstore": "^6.1.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.3.0",
+    "postcss": "^5.2.17",
+    "postcss-custom-media": "^6.0.0",
+    "postcss-custom-selectors": "^4.0.1",
+    "postcss-import": "^11.0.0",
+    "postcss-nested": "^2.1.2",
+    "postcss-scss": "^1.0.2",
+    "stylelint-order": "^0.7.0",
+    "stylelint-scss": "^2.1.0",
+    "stylelint-selector-bem-pattern": "^2.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "dependencies": {
+    "reset.css": "^2.0.2"
+  }
+}

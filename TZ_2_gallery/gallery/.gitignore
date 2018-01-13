@@ -1,0 +1,16 @@
+.idea
+.vscode
+node_modules/
+.blocks-library
+dist/
+**/.DS_Store
+stats.json
+coverage
+npm-debug.log
+yarn.lock
+e2e/reports
+dll
+jmeter.log
+package-lock.json
+**/*.orig
+*.zip
