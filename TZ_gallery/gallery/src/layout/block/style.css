@@ -194,7 +194,6 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .subtitle {
    margin: 0 auto 50px;
    font-size: var(--ui-subtitle-size);
