@@ -285,9 +285,9 @@
   }
 
   &__icon-wrapper {
-    width: 300px;
-    height: 165px;
-    margin: 0 auto 20px;
+	width: 75px;
+    height: 175px;
+    margin: 0 0 0 -10px;
     border-radius: 50%;
     background-color: var(--ui-media-bg);
     color: var(--ui-brand-color);
@@ -356,16 +356,27 @@
 
 
     .plan__icon-wrapper {
-      width: 300px;
-      height: 165px;
+	  width: 0;
+      height: 175px;
 	  background-color: var(--ui-brand-color);
+	  color: var(--ui-light-shade-color);
 	  
     }
-
-
+	
+	.plan__price-count{
+	  color: var(--ui-light-shade-color);
+	}
+	
   }
 }
 
+
+.plan--main .plan__price-text{
+   color: var(--ui-light-shade-color);
+}
+.plan--main .plan__list .plan__list-item{
+   color: var(--ui-light-shade-color);
+}
 .btns-group {
   margin-top: 30px;
   text-align: center;
